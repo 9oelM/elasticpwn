@@ -1,5 +1,7 @@
-github.com/9oelM/elasticpwn/core/util v0.0.0-20211228132618-6ef8b50672a2 h1:UJplMgsNy5lquodys8Vcs5B+e/aBtLwcKOyRCMRUWGc=
-github.com/9oelM/elasticpwn/core/util v0.0.0-20211228132618-6ef8b50672a2/go.mod h1:xLmOALpDxjiStRyp/C8tEkkbrGG+fvZzHTFJ0EHgxY8=
+github.com/9oelM/elasticpwn/core/lookup-addrs v0.0.0-20211228132649-e0ef310a0bba h1:WODHiSBdqVHx9ihTVlEux5Jg4HMGUJVDrEwsq9wLsWI=
+github.com/9oelM/elasticpwn/core/lookup-addrs v0.0.0-20211228132649-e0ef310a0bba/go.mod h1:IpXD67pU45FQIarO1kGQ9zcn49h0THJgkgw6ZR6q7MM=
+github.com/9oelM/elasticpwn/core/util v0.0.0-20211228130743-b4ca3004fcde h1:SHwewNd5G9QwH3k2OxOFRiglzr41P99TNwT5D6UaUco=
+github.com/9oelM/elasticpwn/core/util v0.0.0-20211228130743-b4ca3004fcde/go.mod h1:xLmOALpDxjiStRyp/C8tEkkbrGG+fvZzHTFJ0EHgxY8=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

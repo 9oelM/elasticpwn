@@ -3,6 +3,8 @@ module github.com/9oelM/elasticpwn/core/plugins
 go 1.17
 
 require (
+	github.com/9oelM/elasticpwn/core/lookup-addrs v0.0.0-20211228132649-e0ef310a0bba
+	github.com/9oelM/elasticpwn/core/util v0.0.0-20211228130743-b4ca3004fcde
 	go.mongodb.org/mongo-driver v1.7.3
 )
 
