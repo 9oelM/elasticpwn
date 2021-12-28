@@ -2,8 +2,6 @@ module github.com/9oelM/elasticpwn/core/lookup-addrs
 
 go 1.17
 
-require github.com/9oelM/elasticpwn/core/util v0.0.0-20211228124020-f94bd5df0618
-
 require (
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
