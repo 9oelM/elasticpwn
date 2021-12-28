@@ -1,3 +1,6 @@
+.vscode
+elasticsearch-sample-input.txt
+node_modules
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -13,3 +16,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+data/dump*
+data
+history.csv

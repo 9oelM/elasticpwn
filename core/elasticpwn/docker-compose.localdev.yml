@@ -1,0 +1,26 @@
+# this compose file is only meant to be used for local development
+version: '3.8'
+
+services:
+
+  mongo:
+    image: mongo:5.0.3
+    ports:
+      - "27017:27017" # to connect from my laptop 
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+  elasticpwn:
+    depends_on:
+      - mongo
+    build:
+      context: .
+      dockerfile: localdev.Dockerfile
+    restart: always
+    volumes:
+      - ./:/go/src/app
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
