@@ -3,21 +3,22 @@
 Quickly collects data from exposed Elasticsearch or Kibana instances and generates a report to be reviewed. It mainly aims for sensitive data exposure and content discovery. 
 
 # Table of contents
-- [Rationale](#rationale)
-- [Collecting data](#collecting-data)
-- [Generating a report](#generating-a-report)
-- [Generating a report with a persistent MongoDB database](#generating-a-report-with-a-persistent-mongodb-database)
-- [Generating a report without a persistent MongoDB database](#generating-a-report-without-a-persistent-mongodb-database)
-- [Notes about performance](#notes-about-performance)
-  * [Threads (`-t` option)](#threads----t--option-)
-  * [Maximum number of indices to request (`-max-i` option)](#maximum-number-of-indices-to-request----max-i--option-)
-  * [Maximum size of an index to request (`-max-is` option)](#maximum-size-of-an-index-to-request----max-is--option-)
-  * [Generating a report with many pages](#generating-a-report-with-many-pages)
-- [Full CLI reference](#full-cli-reference)
-  * [`elasticpwn`](#-elasticpwn-)
-  * [`elasticpwn-backend`](#-elasticpwn-backend-)
-- [Contributing](#contributing)
-
+* [elasticpwn](#elasticpwn)
+* [Table of contents](#table-of-contents)
+* [Rationale](#rationale)
+* [Collecting data](#collecting-data)
+* [Generating a report](#generating-a-report)
+* [Generating a report with a persistent MongoDB database](#generating-a-report-with-a-persistent-mongodb-database)
+* [Generating a report without a persistent MongoDB database](#generating-a-report-without-a-persistent-mongodb-database)
+* [Notes about performance](#notes-about-performance)
+   * [Threads (-t option)](#threads--t-option)
+   * [Maximum number of indices to request (-max-i option)](#maximum-number-of-indices-to-request--max-i-option)
+   * [Maximum size of an index to request (-max-is option)](#maximum-size-of-an-index-to-request--max-is-option)
+   * [Generating a report with many pages](#generating-a-report-with-many-pages)
+* [Full CLI reference](#full-cli-reference)
+   * [elasticpwn](#elasticpwn-1)
+   * [elasticpwn-backend](#elasticpwn-backend)
+* [Contributing](#contributing)
 
 # Rationale
 
