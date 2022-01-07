@@ -38,6 +38,19 @@ This project is different from other similar OSS projects in that they actually 
       124.124.124.124:443
       ... and so on.
       ```
+
+      Various types of inputs are accepted. All of the formats below are supported. Just make sure that you don't have any empty lines in the file, as this case is not explicitly handled and is still on the todo list. 
+
+      ```
+      https://123.123.123.123
+      http://123.123.123.123
+      http://123.123.123.123:80
+      http://123.123.123.123:443
+      http://123.123.123.123:5601
+      123.123.123.123:5601
+      ```
+
+      `elasticpwn` will also retry with `http` if the server explicitly responds with the error message containing `server gave HTTP response to HTTPS client`, and `https` if the server explicitly responds with the error message containing `server gave HTTPS response to HTTP client`.
 1. Think about which option to choose for storing output. If you are collecting a really large sum of data, from say, 2000 instances of kibana, then you would probably need to use `mongo` instead of `json`, because `mongo` is the only option where you could generate a report. Otherwise, choose `json` or `plain`. If you will use `mongo`, preferrably launch a local mongodb instance. You can easily do it by using docker-compose file provided at the root of this repository: `curl https://raw.githubusercontent.com/9oelM/elasticpwn/main/docker-compose-mongo-only.yml -o docker-compose-mongo-only.yml && docker-compose -f docker-compose-mongo-only.yml up -d`
 1. Run `elasticpwn` and wait for the data collection to be finished. For example:
       ```
@@ -51,7 +64,7 @@ This project is different from other similar OSS projects in that they actually 
 
 # Generating a report
 
-**Generating a report assumes pre-installation of `npm` and `node`**.
+**Generating a report expects pre-installation of `npm` and `node`**.
 
 Reading the report is a convenient way to review data obtained from the search done by the CLI. The report contains data not limited to:
 - URL of the elasticsearch/kibana instance
