@@ -3,7 +3,7 @@ package EPLookup_addrs
 import (
 	"regexp"
 
-	EPUtils "github.com/9oelM/elasticpwn/core/util"
+	EPUtils "github.com/9oelM/elasticpwn/elasticpwn/util"
 )
 
 var EXCLUDE_SSL_ORGS = []string{

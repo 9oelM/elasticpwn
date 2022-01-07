@@ -7,7 +7,7 @@ cd tmp-binary-build
 
 go mod init github.com/9oelM/elasticpwn/src/tmp-binary-build/lookup-addrs
 
-go mod edit -replace github.com/9oelM/elasticpwn/core/util=../../util 
+go mod edit -replace github.com/9oelM/elasticpwn/elasticpwn/util=../../util 
 
 go mod tidy
 
