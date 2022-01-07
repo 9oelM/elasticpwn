@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	EPUtils "github.com/9oelM/elasticpwn/core/util"
+	EPUtils "github.com/9oelm/elasticpwn/core/util"
 )
 
 // Keep the behavior of this plugin as idempotent as possible

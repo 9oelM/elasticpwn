@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	EPPlugins "github.com/9oelM/elasticpwn/core/plugins"
-	EPUtils "github.com/9oelM/elasticpwn/core/util"
+	EPPlugins "github.com/9oelm/elasticpwn/core/plugins"
+	EPUtils "github.com/9oelm/elasticpwn/core/util"
 )
 
 // elasticsearch and kibana plugins have the exact same fields as of now.
