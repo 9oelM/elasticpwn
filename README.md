@@ -30,7 +30,7 @@ This project is different from other similar OSS projects in that they actually 
 1. You need `go^1.17` to install `elasticpwn`.
 1. Install `elasticpwn`:
       ```bash
-      go install github.com/9oelM/elasticpwn/elasticpwn/elasticpwn@latest
+      go install github.com/9oelM/elasticpwn/elasticpwn@latest
       ```
 1. You will need to have a list of URLs to try against. Get them from OSINT platforms like [shodan.io](https://shodan.io) or [binaryedge.io](https://binaryedge.io). Download them and put them into a text file, with each ip and port written as follows:
       ```
