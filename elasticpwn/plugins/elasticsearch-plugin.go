@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	EPUtils "github.com/9oelm/elasticpwn/core/util"
+	EPUtils "github.com/9oelM/elasticpwn/elasticpwn/util"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

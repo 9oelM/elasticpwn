@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	EPUtils "github.com/9oelm/elasticpwn/core/util"
+	EPUtils "github.com/9oelM/elasticpwn/elasticpwn/util"
 )
 
 /*

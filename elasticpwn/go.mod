@@ -1,4 +1,4 @@
-module github.com/9oelm/elasticpwn/core
+module github.com/9oelM/elasticpwn/elasticpwn
 
 go 1.17
 

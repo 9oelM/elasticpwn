@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	EPLookup_addrs "github.com/9oelm/elasticpwn/core/lookup-addrs"
-	EPUtils "github.com/9oelm/elasticpwn/core/util"
+	EPLookup_addrs "github.com/9oelM/elasticpwn/elasticpwn/lookup-addrs"
+	EPUtils "github.com/9oelM/elasticpwn/elasticpwn/util"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
